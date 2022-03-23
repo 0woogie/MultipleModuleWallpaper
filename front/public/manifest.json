@@ -1,0 +1,20 @@
+{
+  "name": "MMW",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "BMI MMW",
+  "icons": {
+    "128": "mark.png"
+  },
+  "permissions": ["topSites","history","tabs","http://localhost:3000"],
+  "background": {
+  "scripts": [
+    "background.js"
+  ],
+  "persistent": true
+  },
+  "browser_action": {
+    "default_icon": "mark.png",
+    "default_popup": "popup.html"
+    }
+}
